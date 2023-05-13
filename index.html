@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body style="background-color:rgb(9, 9, 79);">
+<div class="container">
+  <br> <br>
+	<label style="color:white; font-size:28px; font-family:'Courier New', Courier, monospace;">Colour-filtered Snapshot</label>
+	<hr>
+  <div>
+    <label style="color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Pick a filter colour:</label>
+    <input type="color" id="color_name">
+  </div>
+  <span>
+    <button style="color:rgb(0, 0, 0); background-color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" onclick="apply_filter()">Apply Filter</button>
+    <br><br>
+  <button style="color:rgb(0, 0, 0); background-color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" onclick="take_snapshot()">Take Snapshot</button>
+  </span>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
